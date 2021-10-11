@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Slider animation landing page</title>
+  </head>
+  <body>
+    <img class="logo" src="images/logo.svg" alt="logo" />
+    <div class="container">
+      <div class="slide active" style="background-image: url('images/1.jpg')">
+        <p class="slide__text">
+          The biggest mountain
+          <span class="slide__text--icon">
+            <img src="images/arrow-text.svg" alt="" />
+          </span>
+        </p>
+      </div>
+      <div class="slide" style="background-image: url('images/2.jpg')">
+        <p class="slide__text">
+          The Aurlandsfjord & Nærøyfjord
+          <span class="slide__text--icon">
+            <img src="images/arrow-text.svg" alt="" />
+          </span>
+        </p>
+      </div>
+      <div class="slide" style="background-image: url('images/3.jpg')">
+        <p class="slide__text">
+          Ibiza Beach Cala Salada.
+          <span class="slide__text--icon">
+            <img src="images/arrow-text.svg" alt="" />
+          </span>
+        </p>
+      </div>
+
+      <!-- bUTTONS NAV -->
+      <div class="slide__btns">
+        <button class="btn nav-left" id="nav-left">
+          <img src="images/btn-left-nav.svg" alt="nav-left" />
+        </button>
+        <button class="btn nav-right" id="nav-right">
+          <img src="images/btn-right-nav.svg" alt="nav-right" />
+        </button>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#home">About</a></li>
+        <li class="nav__item"><a class="nav__link" href="#home">Shop</a></li>
+        <li class="nav__item">
+          <a class="nav__link" href="#home">Contact us</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="number-slide"</div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
